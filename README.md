@@ -16,7 +16,11 @@ Next, cut each board by the line marked in red. The line should be on the edge o
 
 ![Rework cut](images/2_cut.jpg)
 
-Now you're done! Enjoy soldering!
+Now solder it! Note that the first "pin" on the flex board corresponds to the second pin of the 74HC245T footpint.
+
+![Solder](images/3_solder.jpg)
+
+Additionally, you can use a continuity tester to check that all "data" pins are connected and adjacent pins are not shorted accidentally. Some of the 74HC245T footpints used for common signal (like A-E, CLK, ...) distribution have some of the pins connected together. Check twice: probably your "ringing" footprint have some signals connected on purpose.
 
 ## Original work
 
