@@ -17,3 +17,12 @@ Next, cut each board by the line marked in red. The line should be on the edge o
 ![Rework cut](images/2_cut.jpg)
 
 Now you're done! Enjoy soldering!
+
+## Original work
+
+Shoutouts to [Tom Keddie](https://twitter.com/tom_keddie), who made the [first prototype](https://twitter.com/tom_keddie/status/1233759892164362241) with OSH Park flex board process. Unfortunately, castellated vias on OSH Park flex boards are not officially supported, and they do not guarantee correct manufacturing for such vias. The board in this repo is the improved version of the prototype with the following changes:
+
+* Traces are on both sides of the board instead of only the top side.
+* Castellated vias aren't used, instead they are made during the rework process.
+* 4 boards in a panel, instead of 2.
+* Smaller silkscreen text that fits between the vias.
