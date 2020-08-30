@@ -2,7 +2,7 @@
 
 This tiny board is useful to replace 74HC245T chips on Colorlight 5A-75B and 5A-75E boards.
 
-You can order these boards from OSH Park: https://oshpark.com/shared_projects/Og8YtGBU
+You can order these boards from OSH Park: https://oshpark.com/shared_projects/Og8YtGBU Don't forget to select Flex board type on the order page!
 
 ## Rework
 
