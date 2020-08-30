@@ -18,9 +18,11 @@ Next, cut each board by the line marked in red. The line should be on the edge o
 
 Now solder it! Note that the first "pin" on the flex board corresponds to the second pin of the 74HC245T footpint.
 
+You can also skip soldering about 50% of 74HC245T footprints by skipping footprints that are used for common signal (like A-E, CLK, LATCH, BLANK) distribution. You can learn in advance which footprints you need to solder and which not. Usually "color" signals are distributed through separate 74HC245T buffers located in groups of 3. Of course, this way you will not be able to control 8 signals out of... many, but it's still a good price for not soldering ~50% of tiny boards.
+
 ![Solder](images/3_solder.jpg)
 
-Additionally, you can use a continuity tester to check that all "data" pins are connected and adjacent pins are not shorted accidentally. Some of the 74HC245T footpints used for common signal (like A-E, CLK, ...) distribution have some of the pins connected together. Check twice: probably your "ringing" footprint have some signals connected on purpose.
+Additionally, you can use a continuity tester to check that all "data" pins are connected and adjacent pins are not shorted accidentally. Some of the 74HC245T footpints used for common signal distribution have some of the pins connected together. Check twice: probably your "ringing" footprint has some signals connected on purpose.
 
 ## Original work
 
