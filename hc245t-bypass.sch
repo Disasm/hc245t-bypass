@@ -1,0 +1,224 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5ECF5790
+P 1000 1000
+F 0 "TP1" V 1103 1072 50  0000 C CNN
+F 1 "TestPoint" V 1104 1072 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 1000 50  0001 C CNN
+F 3 "~" H 1200 1000 50  0001 C CNN
+	1    1000 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5ECF5EE9
+P 1300 1000
+F 0 "TP2" V 1300 1188 50  0000 L CNN
+F 1 "TestPoint" V 1404 1072 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 1000 50  0001 C CNN
+F 3 "~" H 1500 1000 50  0001 C CNN
+	1    1300 1000
+	0    1    1    0   
+$EndComp
+Text Label 1050 1000 0    50   ~ 0
+A0B0
+Wire Wire Line
+	1000 1000 1300 1000
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5ECF6E18
+P 1000 1250
+F 0 "TP3" V 1103 1322 50  0000 C CNN
+F 1 "TestPoint" V 1104 1322 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 1250 50  0001 C CNN
+F 3 "~" H 1200 1250 50  0001 C CNN
+	1    1000 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5ECF6E22
+P 1300 1250
+F 0 "TP4" V 1300 1438 50  0000 L CNN
+F 1 "TestPoint" V 1404 1322 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 1250 50  0001 C CNN
+F 3 "~" H 1500 1250 50  0001 C CNN
+	1    1300 1250
+	0    1    1    0   
+$EndComp
+Text Label 1050 1250 0    50   ~ 0
+A1B1
+Wire Wire Line
+	1000 1250 1300 1250
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5ECF736B
+P 1000 1500
+F 0 "TP5" V 1103 1572 50  0000 C CNN
+F 1 "TestPoint" V 1104 1572 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 1500 50  0001 C CNN
+F 3 "~" H 1200 1500 50  0001 C CNN
+	1    1000 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5ECF7375
+P 1300 1500
+F 0 "TP6" V 1300 1688 50  0000 L CNN
+F 1 "TestPoint" V 1404 1572 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 1500 50  0001 C CNN
+F 3 "~" H 1500 1500 50  0001 C CNN
+	1    1300 1500
+	0    1    1    0   
+$EndComp
+Text Label 1050 1500 0    50   ~ 0
+A2B2
+Wire Wire Line
+	1000 1500 1300 1500
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5ECF7C05
+P 1000 1750
+F 0 "TP7" V 1103 1822 50  0000 C CNN
+F 1 "TestPoint" V 1104 1822 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 1750 50  0001 C CNN
+F 3 "~" H 1200 1750 50  0001 C CNN
+	1    1000 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5ECF7C0F
+P 1300 1750
+F 0 "TP8" V 1300 1938 50  0000 L CNN
+F 1 "TestPoint" V 1404 1822 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 1750 50  0001 C CNN
+F 3 "~" H 1500 1750 50  0001 C CNN
+	1    1300 1750
+	0    1    1    0   
+$EndComp
+Text Label 1050 1750 0    50   ~ 0
+A3B3
+Wire Wire Line
+	1000 1750 1300 1750
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5ECF81F7
+P 1000 2000
+F 0 "TP9" V 1103 2072 50  0000 C CNN
+F 1 "TestPoint" V 1104 2072 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 2000 50  0001 C CNN
+F 3 "~" H 1200 2000 50  0001 C CNN
+	1    1000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5ECF8201
+P 1300 2000
+F 0 "TP10" V 1300 2188 50  0000 L CNN
+F 1 "TestPoint" V 1404 2072 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 2000 50  0001 C CNN
+F 3 "~" H 1500 2000 50  0001 C CNN
+	1    1300 2000
+	0    1    1    0   
+$EndComp
+Text Label 1050 2000 0    50   ~ 0
+A4B4
+Wire Wire Line
+	1000 2000 1300 2000
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5ECF8A21
+P 1000 2250
+F 0 "TP11" V 1103 2322 50  0000 C CNN
+F 1 "TestPoint" V 1104 2322 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 2250 50  0001 C CNN
+F 3 "~" H 1200 2250 50  0001 C CNN
+	1    1000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5ECF8A2B
+P 1300 2250
+F 0 "TP12" V 1300 2438 50  0000 L CNN
+F 1 "TestPoint" V 1404 2322 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 2250 50  0001 C CNN
+F 3 "~" H 1500 2250 50  0001 C CNN
+	1    1300 2250
+	0    1    1    0   
+$EndComp
+Text Label 1050 2250 0    50   ~ 0
+A5B5
+Wire Wire Line
+	1000 2250 1300 2250
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5ECF90D8
+P 1000 2500
+F 0 "TP13" V 1103 2572 50  0000 C CNN
+F 1 "TestPoint" V 1104 2572 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 2500 50  0001 C CNN
+F 3 "~" H 1200 2500 50  0001 C CNN
+	1    1000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5ECF90E2
+P 1300 2500
+F 0 "TP14" V 1300 2688 50  0000 L CNN
+F 1 "TestPoint" V 1404 2572 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1300 2500
+	0    1    1    0   
+$EndComp
+Text Label 1050 2500 0    50   ~ 0
+A6B6
+Wire Wire Line
+	1000 2500 1300 2500
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5ECF964F
+P 1000 2750
+F 0 "TP15" V 1103 2822 50  0000 C CNN
+F 1 "TestPoint" V 1104 2822 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1200 2750 50  0001 C CNN
+F 3 "~" H 1200 2750 50  0001 C CNN
+	1    1000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5ECF9659
+P 1300 2750
+F 0 "TP16" V 1300 2938 50  0000 L CNN
+F 1 "TestPoint" V 1404 2822 50  0001 C CNN
+F 2 "hc245t-bypass:PAD" H 1500 2750 50  0001 C CNN
+F 3 "~" H 1500 2750 50  0001 C CNN
+	1    1300 2750
+	0    1    1    0   
+$EndComp
+Text Label 1050 2750 0    50   ~ 0
+A7B7
+Wire Wire Line
+	1000 2750 1300 2750
+$EndSCHEMATC
